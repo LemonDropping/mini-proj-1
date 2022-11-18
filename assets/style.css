@@ -1,0 +1,59 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header{
+    background-color: rgb(86, 73, 44);
+}
+
+
+.body *{
+    background-color: bisque;
+}
+
+main {
+    background-color: rgb(20, 72, 72);
+}
+
+#profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+
+footer {
+    color: rgb(86, 73, 44);
+    background-color: rgb(195, 226, 243);
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(6, 86, 156);
+    color: rgb(176, 178, 180);
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(206, 228, 246);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(68, 123, 170);
+}
+
+.active {
+    background-color: rgb(68, 123, 170);
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
